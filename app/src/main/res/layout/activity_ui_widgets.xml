@@ -26,13 +26,20 @@
                 android:text="Seekbar" />
 
             <Button
+                android:id="@+id/ratingbar_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="Rating bar" />
 
         </LinearLayout>
     </HorizontalScrollView>
+
+    <RatingBar
+        android:id="@+id/ratingbar_rb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
 
     <SeekBar
         android:id="@+id/music_sb"
